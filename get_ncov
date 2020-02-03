@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python get_sequences.py -e code@dallago.us -t "txid2697049[Organism:noexp]"
