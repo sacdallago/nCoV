@@ -1,6 +1,9 @@
 # 2019-nCoV Protein Sequences
 
-This repo collects various files that may be useful for researchers interested in the 2019-nCoV, aka. the novel CoronaVirus (also known as Wuhan coronavirus, or Wuhan seafood market pneumonia virus).
+In this repo I collected various files that may be useful for the community / those interested in the 2019-nCoV, aka. the novel CoronaVirus (also known as Wuhan coronavirus, or Wuhan seafood market pneumonia virus). If you have any questions contact me on TW: [@sacdallago](https://twitter.com/sacdallago)
+
+
+### Files:
 
 1. All protein products translated from sequenced genomes on NCBI ([from NCBI protein](https://www.ncbi.nlm.nih.gov/protein/?term=txid2697049[Organism:noexp])) as a single FASTA file. This resource is updated regularly: [files/nCoV.fasta](files/nCoV.fasta)
 
@@ -16,4 +19,10 @@ This repo collects various files that may be useful for researchers interested i
 
 
 
-Most of the data comes from NCBI (thanks!!) & the script used to download it can be found in this repo.
+
+
+
+
+
+
+Most of the data comes from NCBI (thanks!!) & the script used to download the data is also found in this repo, together with bash scripts that take care of 99% of what you need to do.
