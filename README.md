@@ -15,7 +15,7 @@ In this repo I collected various files that may be useful for the community / th
 
 4. All protein products that match "spike glycoprotein" on NCBI ([from NCBI protein](https://www.ncbi.nlm.nih.gov/protein/?term=spike+glycoprotein)): [files/spike_glycoproteins.fasta](files/spike_glycoproteins.fasta)
 
-5. The alignment of the dec 2019 nCoV sequenced spike glycoprotein against all spike glycoproteins found on NCBI in STOCKHOLM format: [files/alignment.sto](files/alignment.sto)
+5. The alignment of the dec 2019 nCoV sequenced spike glycoprotein against all spike glycoproteins found on NCBI in STOCKHOLM format: [maintenance.dallago.us/public/ncov/alignment.sto](http://maintenance.dallago.us/public/ncov/alignment.sto)
 
 
 
