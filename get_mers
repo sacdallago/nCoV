@@ -1,3 +1,7 @@
 #!/bin/bash
 
-python get_sequences.py -e code@dallago.us -t "txid1335626[Organism:noexp]"
+python get_sequences.py -e some@email.com -t "txid1335626[Organism:noexp]" -o files/temp/MERS.fasta
+
+cp files/temp/MERS.fasta files/MERS.fasta
+
+exit 0
