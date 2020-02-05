@@ -1,7 +1,7 @@
 #!/bin/bash
 
 python retrieve_sequences.py -e some@email.com -t "txid1335626[Organism:noexp]" -o files/temp/MERS
-python retrieve_sequence_info.py -e some@email.com -t "txid2697049[Organism:noexp]" -o files/temp/MERS
+python retrieve_sequence_info.py -e some@email.com -t "txid1335626[Organism:noexp]" -o files/temp/MERS
 
 cp files/temp/MERS.fasta files/MERS.fasta
 cp files/temp/MERS.txt files/MERS.txt
