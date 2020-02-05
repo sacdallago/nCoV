@@ -17,7 +17,6 @@ results = Entrez.read(handle)
 handle.close()
 
 with open((arguments.FileName if arguments.FileName else 'sequences') + '.fasta', "w") as fasta_file:
-    for gi in results['IdList']:
-        handle = Entrez.efetch(db='protein', id=gi, rettype='fasta')
-        print(handle.read(), file=fasta_file)
-        handle.close()
+    handle = Entrez.efetch(db='protein', id=results['IdList'], rettype='fasta')
+    print(handle.read(), file=fasta_file)
+    handle.close()
