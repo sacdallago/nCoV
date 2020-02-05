@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python get_sequences.py -e some@email.com -t "txid1335626[Organism:noexp]" -o files/temp/MERS.fasta
+python get_sequences.py -e some@email.com -t "txid1335626[Organism:noexp]" -o files/temp/MERS
 
 cp files/temp/MERS.fasta files/MERS.fasta
 
