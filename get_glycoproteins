@@ -1,0 +1,9 @@
+#!/bin/bash
+
+python retrieve_sequences.py -e some@email.com -t "spike glycoprotein" -o files/temp/spike_glycoproteins
+python retrieve_sequence_info.py -e some@email.com -t "spike glycoprotein" -o files/temp/spike_glycoproteins
+
+cp files/temp/spike_glycoproteins.fasta files/spike_glycoproteins.fasta
+cp files/temp/spike_glycoproteins.txt files/spike_glycoproteins.txt
+
+exit 0
