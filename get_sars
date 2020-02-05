@@ -1,7 +1,9 @@
 #!/bin/bash
 
 python get_sequences.py -e some@email.com -t "txid694009[Organism:noexp]" -o files/temp/SARS
+python get_sequence_info.py -e some@email.com -t "txid2697049[Organism:noexp]" -o files/temp/SARS
 
 cp files/temp/SARS.fasta files/SARS.fasta
+cp files/temp/SARS.txt files/SARS.txt
 
 exit 0
